@@ -1,2 +1,3 @@
 I'm working on the site right now, it'll be back up soon.
-In the mean time, check out my [LinkedIn](https://www.linkedin.com/in/hayden-holcomb) profile and my [GitHub](https://www.github.com/HaydenHolcomb).
+
+In the mean time, check out my [LinkedIn](https://www.linkedin.com/in/hayden-holcomb) profile.
