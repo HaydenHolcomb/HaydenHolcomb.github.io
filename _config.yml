@@ -24,8 +24,7 @@ title: Hayden Holcomb
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
-
-gem "jekyll"
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
