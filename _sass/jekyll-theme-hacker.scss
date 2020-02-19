@@ -239,13 +239,23 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
+.btn-prev {
+  opacity: 0.6;
+  background: url("/assets/images/left-bullet.png") left no-repeat;
+}
+
+.btn-next {
+  opacity: 0.6;
+  background: url("/assets/images/bullet.png") right no-repeat;
+}
+
 /* Links
    a, a:hover, a:visited
 */
 
 a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  color: #14A10C;
+  /* text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); */
 }
 
 /* Clearfix */

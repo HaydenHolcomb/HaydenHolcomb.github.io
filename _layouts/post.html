@@ -16,10 +16,10 @@ layout: default
 {% if page.previous or page.next %}
 	<div class="post-nav">
 		{% if page.previous %}
-			<div class="prev"><a href="{{ page.previous.url }}">&#171; Previous Entry</a></div>
+			<div class="prev"><a href="{{ page.previous.url }}">&lt;&lt; {{ page.previous.title }}</a></div>
 		{% endif %}
 		{% if page.next %}
-			<div class="next"><a href="{{ page.next.url }}">Next Entry &#187;</a></div>
+			<div class="next"><a href="{{ page.next.url }}">{{ page.next.title }} &gt;&gt;</a></div>
 		{% endif %}
 	</div>
 {% endif %}
