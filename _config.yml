@@ -24,6 +24,8 @@ title: Hayden Holcomb
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+
+permalink: /blog/:year/:month/:day/:title
   
 
 # Exclude from processing.

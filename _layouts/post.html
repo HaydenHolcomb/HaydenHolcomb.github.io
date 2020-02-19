@@ -12,3 +12,14 @@ layout: default
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+
+{% if page.previous or page.next %}
+	<div class="post-nav">
+		{% if page.previous %}
+			<div class="prev"><a href="{{ page.previous.url }}">&#171; Previous Entry</a></div>
+		{% endif %}
+		{% if page.next %}
+			<div class="next"><a href="{{ page.next.url }}">Next Entry &#187;</a></div>
+		{% endif %}
+	</div>
+{% endif %}

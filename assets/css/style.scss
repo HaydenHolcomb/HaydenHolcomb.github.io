@@ -1,0 +1,25 @@
+--- 
+--- 
+
+@import "{{ site.theme }}";
+
+.post-nav{
+	/* @extend .snp-clearfix;
+	@extend .snp-font-16;
+	@extend .snp-font-droid-regular;
+	margin-top: 100px;
+	padding: 20px 0;
+	border-top: 1px solid $terminal-green;
+	border-bottom: 1px solid $terminal-green; */
+	line-height:1;
+	.prev{
+		float:left;
+	}
+	.next{
+		float:right;
+	}
+	@media screen and (max-width:480px){
+		margin-top:40px;
+		font-size:108%; // 14px
+	}
+}
