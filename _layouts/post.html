@@ -9,10 +9,6 @@ layout: default
 
 {{content}}
 
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
-
 {% if page.previous or page.next %}
 	<div class="post-nav">
 		{% if page.previous %}
