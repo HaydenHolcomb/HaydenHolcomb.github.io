@@ -5,9 +5,10 @@ title: Blog
 
 <div class="row">
   <div class="column left">
+    <h1>Posts</h1>
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p class="author">
         <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
       </p>
@@ -44,10 +45,9 @@ title: Blog
     </div>
     {% endif %}
   </div>
-</div>
 
-<div class="row">
   <div class="column right">
+    <h1>Categories</h1>
     {% for category in site.categories %}
       <h3>{{ category[0] }}</h3>
       <ul>
